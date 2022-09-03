@@ -1,0 +1,27 @@
+<style>
+.button{
+	display: inline-block;
+	border: none;
+	color: white;
+	padding: 5px 5px;
+	margin: 0px 0px;
+	width: 160px;
+	text-align: center;
+	font-size: 16px !important;
+	cursor: pointer;
+}	
+.button-green{
+	background-color: #32cd32;
+}
+.button-green:hover{
+	background-color: #124d12;
+}
+
+</style>
+<div>
+	<button 
+		class="button button-green" 
+		id="bt-exporttoexcel"
+		ng-click="exportTableToExcel()">Export to Excel
+	</button>	
+</div>
